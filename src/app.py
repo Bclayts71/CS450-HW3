@@ -3,7 +3,7 @@ from dash import dcc, html, Input,Output, dash_table
 import plotly.express as px
 import pandas as pd
 
-csv_file_path = "c:\\Users\\bren5\\OneDrive\\Documents\\CS450 Apps\\src\\ProcessedTweets.csv"
+csv_file_path = "src/ProcessedTweets.csv"
 df = pd.read_csv(csv_file_path)
 app = dash.Dash(__name__)
 server = app.server
